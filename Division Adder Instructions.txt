@@ -1,0 +1,24 @@
+﻿Division Adder Instructions
+Java:
+* Java Runtime Environment is Required
+* Once JRE is downloaded, run the file by:
+   * Open a command console:
+      * On Windows: Shift Right-click on an empty spot in the folder where the .jar file is located and open a command prompt/Powershell Window
+   * Type “java -jar DivisionAdder.jar” into the command prompt
+The Program:
+1. Type in the exact name of the division template, and include the quotations around it (remember that code is case and space sensitive)
+2. Add The name order of the first division being added
+   1. Name order is the number attached to the division (I.E. starting at 2 and creating 3 divisions will create the 2nd, 3rd, and 4th divisions of whatever chosen template)
+3. Include the amount of experience that all the created units will have (Uses percentages, from 0.0 to 1.0)
+4. Input the province ID where the division is located (this creates the division)
+   1. After inputting a province ID, the program will ask for the next division’s province ID, creating another division
+   2. Once you have created all the divisions of this template and exp level that you want, enter any negative number and the program will stop creating divisions
+5. The file units.txt will have been created in the folder where your .jar file is located, and the code that you need to copy-paste will be located in the file
+   1. Creating more units will overwrite the already existing units.txt file, and any text in that file will be removed
+
+
+The Raw .java code is included with the file, incase running a file with unknown binary code is unsettling
+
+
+Link to Google Doc:
+https://docs.google.com/document/d/1xmPshWV9LIIxo9qCLy8H9-IfJvC_sAgzYo6rD7bY_hM/edit?usp=sharing
