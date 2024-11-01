@@ -50,9 +50,7 @@ public class OutputDivisionsToFile {
 		
 		for(Division unit: units) //Output each unit
 		{
-			outputFile.println("\tdivision = { # " + unit.getTemplate() + "\n\t\tdivision_name = {\n\t\t\tis_name_ordered = yes\n\t\t\t" +
-							   "name_order = " + unit.getOrd() + "\n\t\t}\n\t\tlocation = " + unit.getLoc() + 
-							   "\n\t\tdivision_template = " + unit.getTemplate() + "\n\t\tstart_experience_factor = " + unit.getXp() + "\n\t}");
+			outputFile.println(unit);
 		}
 		
 		outputFile.close();

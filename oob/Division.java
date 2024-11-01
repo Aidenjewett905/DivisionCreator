@@ -51,5 +51,10 @@ public class Division {
 	public void setOrd(int ord) {
 		nameOrder = ord;
 	}
+	public String toString() {
+		return "\tdivision = { # " + divisionTemplate + "\n\t\tdivision_name = {\n\t\t\tis_name_ordered = yes\n\t\t\t" +
+				   "name_order = " + nameOrder + "\n\t\t}\n\t\tlocation = " + location + 
+				   "\n\t\tdivision_template = " + divisionTemplate + "\n\t\tstart_experience_factor = " + expFactor + "\n\t}";
+	}
 	
 }
