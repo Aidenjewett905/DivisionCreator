@@ -1,6 +1,9 @@
 ﻿Division Adder Instructions
 Java:
 * Download and use java to run the program
+
+1. Run the .bat file, ensuring you have the JDK installed to your computer
+
 The Program:
 1. Type in the exact name of the division template, and include the quotations around it (remember that code is case and space sensitive)
 2. Add The name order of the first division being added
